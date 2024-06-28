@@ -5,15 +5,15 @@ public class ContaTerminal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out.print("Digite o seu nome: ");
+        System.out.print("Por favor, digite o seu nome: ");
         String nomeCliente = scanner.nextLine();
 
 
-        System.out.print("Digite a sua Agência: ");
+        System.out.print("Informe o número da Agência: ");
         String agencia = scanner.nextLine();
 
 
-        System.out.print("Digite o número da Conta: ");
+        System.out.print("Informe o número da Conta: ");
         int numeroConta = scanner.nextInt();
 
 
